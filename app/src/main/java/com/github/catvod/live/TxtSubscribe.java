@@ -52,7 +52,7 @@ public class TxtSubscribe {
                         String url = urlMix[j].trim();
                         if (url.isEmpty())
                             continue;
-                        if (url.startsWith("http") || url.startsWith("rtsp") || url.startsWith("rtmp")) {
+                        if (url.startsWith("http") || url.startsWith("rtsp") || url.startsWith("rtmp") || url.startsWith("mitv") || url.startsWith("gdtv")) {
                             ArrayList<String> urls = null;
                             if (!groupLives.containsKey(title)) {
                                 urls = new ArrayList<>();
